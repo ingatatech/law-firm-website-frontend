@@ -9,6 +9,7 @@ export const practiceAreas = [
     id: 1,
     name: 'Corporate & Commercial Law',
     slug: 'corporate-commercial',
+    image: '/images/practice-areas/corporate.jpg',
     headline: 'Legal Support for Your Business',
     description:
       'We support businesses and organizations with commercial transactions, contracts, corporate governance, and business structures.',
@@ -25,6 +26,7 @@ export const practiceAreas = [
     id: 2,
     name: 'Litigation & Dispute Resolution',
     slug: 'litigation',
+    image: '/images/practice-areas/litigation.jpg',
     headline: 'Strategic Representation When Disputes Arise',
     description:
       'Legal representation and dispute-resolution services for civil, commercial, and other approved matters.',
@@ -34,6 +36,7 @@ export const practiceAreas = [
     id: 3,
     name: 'Employment & Labour Law',
     slug: 'employment',
+    image: '/images/practice-areas/employment.jpg',
     headline: 'Practical Legal Support for Employment Matters',
     description:
       'Assistance for employers and employees with applicable employment-related legal matters.',
@@ -43,6 +46,7 @@ export const practiceAreas = [
     id: 4,
     name: 'Family Law',
     slug: 'family-law',
+    image: '/images/practice-areas/family.jpg',
     headline: 'Professional Guidance Through Important Family Matters',
     description: 'Legal support for approved family-related matters.',
     services: ['Divorce', 'Child custody', 'Maintenance', 'Matrimonial property', 'Succession-related matters']
@@ -51,6 +55,7 @@ export const practiceAreas = [
     id: 5,
     name: 'Real Estate & Property Law',
     slug: 'real-estate',
+    image: '/images/practice-areas/real-estate.jpg',
     headline: 'Legal Guidance for Property Matters',
     description: 'Legal services relating to property transactions, ownership, and development.',
     services: ['Property transactions', 'Sale and purchase agreements', 'Leases', 'Property disputes']
@@ -59,6 +64,7 @@ export const practiceAreas = [
     id: 6,
     name: 'Intellectual Property',
     slug: 'intellectual-property',
+    image: '/images/practice-areas/intellectual-property.jpg',
     headline: 'Protecting Your Intellectual Assets',
     description: 'Protection, management, and enforcement of intellectual-property rights.',
     services: ['Trademarks', 'Copyright', 'Licensing', 'IP disputes', 'Brand protection']
@@ -68,10 +74,10 @@ export const practiceAreas = [
 export const attorneys = [
   {
     id: 1,
-    fullName: 'XXX',
+    fullName: '[Attorney Name]',
     title: 'Senior Partner',
     photoUrl: null,
-    bio: 'XXX leads the firm\'s corporate practice, advising businesses across East Africa on transactions and governance.',
+    bio: '[Attorney Name] leads the firm\'s corporate practice, advising businesses across East Africa on transactions and governance.',
     education: 'LLB, University of Rwanda — LLM, University of Cape Town',
     barAdmission: 'Rwanda Bar Association',
     email: 'xxx@example-law.rw',
@@ -79,10 +85,10 @@ export const attorneys = [
   },
   {
     id: 2,
-    fullName: 'XXX',
+    fullName: '[Attorney Name]',
     title: 'Partner, Litigation',
     photoUrl: null,
-    bio: 'XXX represents clients in commercial and civil disputes, with a focus on arbitration and mediation.',
+    bio: '[Attorney Name] represents clients in commercial and civil disputes, with a focus on arbitration and mediation.',
     education: 'LLB, University of Rwanda',
     barAdmission: 'Rwanda Bar Association',
     email: 'xxx@example-law.rw',
@@ -90,10 +96,10 @@ export const attorneys = [
   },
   {
     id: 3,
-    fullName: 'XXX',
+    fullName: '[Attorney Name]',
     title: 'Associate',
     photoUrl: null,
-    bio: 'XXX advises on employment and family law matters, working closely with individual and corporate clients.',
+    bio: '[Attorney Name] advises on employment and family law matters, working closely with individual and corporate clients.',
     education: 'LLB, Kigali Independent University',
     barAdmission: 'Rwanda Bar Association',
     email: 'xxx@example-law.rw',

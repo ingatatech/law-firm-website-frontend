@@ -8,41 +8,40 @@ export default function Home() {
   return (
     <Layout>
       {/* Hero */}
-      {/* Hero */}
-<section className="relative overflow-hidden border-b border-ink/10">
-  <img
-    src="/images/hero-law-firm.jpg"
-    alt="Professional legal consultation"
-    className="absolute inset-0 h-full w-full object-cover"
-  />
-  <div className="absolute inset-0 bg-ink/75" aria-hidden="true" />
-  <div className="relative mx-auto max-w-6xl px-6 py-24 md:py-32">
-    <p className="text-sm font-medium uppercase tracking-wide text-brass">
-      Experience. Integrity. Results.
-    </p>
-    <h1 className="mt-4 max-w-2xl font-serif text-4xl font-semibold leading-tight text-paperLight md:text-5xl">
-      Trusted legal counsel. Strategic representation.
-    </h1>
-    <p className="mt-5 max-w-prose text-base leading-relaxed text-paperLight/80">
-      We provide professional legal services and strategic counsel to individuals, businesses,
-      and organizations across Rwanda.
-    </p>
-    <div className="mt-8 flex flex-wrap gap-4">
-      <Link
-        to="/consultation"
-        className="border border-accent bg-accent px-6 py-3 text-sm font-medium text-paperLight transition-colors hover:bg-accent-dark"
-      >
-        Request a Consultation
-      </Link>
-      <Link
-        to="/practice-areas"
-        className="border border-paperLight/40 px-6 py-3 text-sm font-medium text-paperLight transition-colors hover:border-paperLight hover:bg-paperLight/10"
-      >
-        Explore Our Practice Areas
-      </Link>
-    </div>
-  </div>
-</section>
+      <section className="relative overflow-hidden border-b border-ink/10">
+        <img
+          src="/images/hero-law-firm.jpg"
+          alt="Professional legal consultation"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-ink/75" aria-hidden="true" />
+        <div className="relative mx-auto max-w-6xl px-6 py-24 md:py-32">
+          <p className="text-sm font-medium uppercase tracking-wide text-brass">
+            Experience. Integrity. Results.
+          </p>
+          <h1 className="mt-4 max-w-2xl font-serif text-4xl font-semibold leading-tight text-paperLight md:text-5xl">
+            Trusted legal counsel. Strategic representation.
+          </h1>
+          <p className="mt-5 max-w-prose text-base leading-relaxed text-paperLight/80">
+            We provide professional legal services and strategic counsel to individuals, businesses,
+            and organizations across Rwanda.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-4">
+            <Link
+              to="/consultation"
+              className="border border-accent bg-accent px-6 py-3 text-sm font-medium text-paperLight transition-colors hover:bg-accent-dark"
+            >
+              Request a Consultation
+            </Link>
+            <Link
+              to="/practice-areas"
+              className="border border-paperLight/40 px-6 py-3 text-sm font-medium text-paperLight transition-colors hover:border-paperLight hover:bg-paperLight/10"
+            >
+              Explore Our Practice Areas
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* Practice areas */}
       <section className="mx-auto max-w-6xl px-6 py-20">
