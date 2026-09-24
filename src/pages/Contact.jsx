@@ -1,18 +1,17 @@
 import Layout from '../components/Layout'
+import PageBanner from '../components/PageBanner'
 import ContactForm from '../components/ContactForm'
 import { officeInfo } from '../data/mockData'
 
 export default function Contact() {
   return (
     <Layout>
-      <section className="border-b border-ink/10 bg-paperLight">
-        <div className="mx-auto max-w-6xl px-6 py-16">
-          <p className="text-sm font-medium uppercase tracking-wide text-brass">Contact</p>
-          <h1 className="mt-3 max-w-2xl font-serif text-3xl font-semibold text-ink md:text-4xl">
-            Get in touch
-          </h1>
-        </div>
-      </section>
+      <PageBanner
+        image="/images/banners/contact.jpg"
+        imageAlt="Attorney speaking with a client during a consultation"
+        eyebrow="Contact"
+        title="Get in touch"
+      />
 
       <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
